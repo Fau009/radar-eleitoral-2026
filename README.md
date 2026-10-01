@@ -2,7 +2,7 @@
 
 Site informativo e não-partidário sobre as Eleições Gerais 2026 no Brasil. Sem login, sem coleta de dados pessoais.
 
-**Acessar:** _(link do GitHub Pages adicionado após o primeiro deploy)_
+**Acessar:** https://fau009.github.io/radar-eleitoral-2026/
 
 ## O que tem
 
