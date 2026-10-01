@@ -1,0 +1,21 @@
+{
+  "corrida": "Presidente da República — cenário nacional",
+  "instituto": "Genial/Quaest",
+  "dataPesquisa": "2026-09-20",
+  "periodoColeta": "17 a 20 de setembro de 2026",
+  "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026-4/",
+  "atualizadoEm": "2026-10-01",
+  "primeiroTurno": [
+    {"candidato": "Luiz Inácio Lula da Silva", "partido": "PT", "percentual": 37},
+    {"candidato": "Flávio Bolsonaro", "partido": "PL", "percentual": 33}
+  ],
+  "indecisosOuBranco": 42,
+  "segundoTurnoSimulado": {
+    "cenario": "Lula x Flávio Bolsonaro",
+    "resultado": [
+      {"candidato": "Flávio Bolsonaro", "partido": "PL", "percentual": 42},
+      {"candidato": "Luiz Inácio Lula da Silva", "partido": "PT", "percentual": 41}
+    ]
+  },
+  "observacao": "Lula e Flávio Bolsonaro aparecem empatados dentro da margem de erro no 1º turno. Esta é a última pesquisa pública identificada até a publicação deste site — números de pesquisas eleitorais mudam rápido, sempre confira a data acima e a fonte original antes de tirar conclusões."
+}

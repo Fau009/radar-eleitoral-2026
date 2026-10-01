@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Atualmente — Radar Eleitoral 2026</title>
+<meta name="description" content="Organograma do poder público no Brasil: quem está no cargo hoje e quem são os candidatos de 2026, com fichas e filtros por estado e cidade." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<main>
+  <div class="container">
+    <h1>Atualmente</h1>
+    <p>Explore quem ocupa cada cargo hoje e quem são os candidatos de 2026. Clique em um nível no organograma (ou escolha na lista) para ver as fichas.</p>
+
+    <section class="card">
+      <div class="filters">
+        <div class="view-toggle">
+          <button type="button" id="btn-view-org" class="active">Organograma</button>
+          <button type="button" id="btn-view-list">Lista</button>
+        </div>
+      </div>
+
+      <div id="orgchart-wrap" class="orgchart"></div>
+      <div id="listchart-wrap" style="display:none;"></div>
+    </section>
+
+    <section class="card" id="filtros-ficha" style="display:none;">
+      <div class="filters">
+        <label>Mostrar:
+          <select id="f-modo">
+            <option value="atuais">Quem está no cargo hoje</option>
+            <option value="candidatos">Candidatos 2026</option>
+          </select>
+        </label>
+        <label>Estado: <select id="f-uf"><option value="">Todos</option></select></label>
+        <label>Cidade: <input id="f-cidade" type="text" placeholder="ex: Campinas" style="display:none;" /></label>
+        <label>Buscar nome: <input id="f-nome" type="text" placeholder="nome do candidato" /></label>
+      </div>
+      <div id="ficha-result"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Radar Eleitoral 2026 — dados oficiais do TSE, Câmara dos Deputados e Senado Federal. Vereadores e Deputados Estaduais em exercício entram em uma atualização futura.</div>
+</footer>
+
+<script src="js/header.js"></script>
+<script src="js/atualmente.js"></script>
+</body>
+</html>
