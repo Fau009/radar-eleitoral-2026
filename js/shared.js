@@ -36,11 +36,13 @@ function fichaCard(p, fallbackCargoLabel) {
   if (p.situacaoCandidatura) linhas.push(["Candidatura", p.situacaoCandidatura]);
   if (p.mandatoDesde) linhas.push(["No cargo desde", p.mandatoDesde]);
 
-  const frase = p.fraseObjetivo
-    ? `<div class="ficha-frase">"${p.fraseObjetivo}"</div>`
-    : p.situacaoCandidatura
-    ? `<div class="ficha-link"><a href="https://divulgacandcontas.tse.jus.br/divulga/#/" target="_blank" rel="noopener">Ver proposta no TSE →</a></div>`
-    : "";
+  const linkCandidato = p.linkOficial || (p.situacaoCandidatura ? "https://divulgacandcontas.tse.jus.br/divulga/#/" : null);
+  const linkLabel = p.linkOficial ? "Ver ficha do candidato no TSE →" : "Buscar candidato no TSE →";
+
+  const frase = [
+    p.fraseObjetivo ? `<div class="ficha-frase">"${p.fraseObjetivo}"</div>` : "",
+    linkCandidato ? `<div class="ficha-link"><a href="${linkCandidato}" target="_blank" rel="noopener">${linkLabel}</a></div>` : "",
+  ].join("");
 
   return `
     <div class="ficha">
