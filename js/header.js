@@ -10,7 +10,9 @@ const PAGES = [
   { href: "index.html", label: "Início" },
   { href: "institucional.html", label: "Institucional" },
   { href: "atualmente.html", label: "Atualmente" },
+  { href: "candidatos.html", label: "Candidatos" },
   { href: "onde-votar.html", label: "Onde Votar" },
+  { href: "fontes.html", label: "Fontes" },
 ];
 
 function renderHeader() {

@@ -1,0 +1,28 @@
+{
+  "cargo": "Presidente — liderança por estado",
+  "instituto": "Quaest",
+  "dataPesquisa": "2026-08-26",
+  "fonte": "https://www.brasildefato.com.br/2026/08/26/onde-lula-e-flavio-bolsonaro-lideram-disputa-para-presidente-veja-os-numeros-da-quaest-em-17-estados-e-no-df/",
+  "atualizadoEm": "2026-10-01",
+  "nota": "A Quaest divulgou números estado a estado para 17 estados + DF nessa rodada — os demais estados não têm pesquisa estadual própria publicada e aparecem sem dado.",
+  "porEstado": {
+    "AP": {"lula": 36, "flavio": 33},
+    "AM": {"lula": 38, "flavio": 33},
+    "RO": {"lula": 25, "flavio": 45},
+    "TO": {"lula": 37, "flavio": 32},
+    "AL": {"lula": 44, "flavio": 29},
+    "MA": {"lula": 58, "flavio": 20},
+    "PB": {"lula": 50, "flavio": 21},
+    "PE": {"lula": 54, "flavio": 19},
+    "RN": {"lula": 54, "flavio": 20},
+    "DF": {"lula": 28, "flavio": 26},
+    "MT": {"lula": 26, "flavio": 43},
+    "MS": {"lula": 27, "flavio": 33},
+    "MG": {"lula": 30, "flavio": 31},
+    "RJ": {"lula": 29, "flavio": 31},
+    "SP": {"lula": 29, "flavio": 30},
+    "PR": {"lula": 23, "flavio": 41},
+    "RS": {"lula": 28, "flavio": 34},
+    "SC": {"lula": 20, "flavio": 45}
+  }
+}

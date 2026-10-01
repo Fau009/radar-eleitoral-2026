@@ -11,7 +11,7 @@
 <main>
   <div class="container">
     <h1>Atualmente</h1>
-    <p>Explore quem ocupa cada cargo hoje e quem são os candidatos de 2026. Clique em um nível no organograma (ou escolha na lista) para ver as fichas.</p>
+    <p>Explore quem ocupa cada cargo hoje, do governo federal às prefeituras. Clique em um nível no organograma (ou escolha na lista) para ver as fichas. Quer ver os candidatos de 2026? Veja a aba <a href="candidatos.html">Candidatos</a>.</p>
 
     <section class="card">
       <div class="filters">
@@ -27,12 +27,6 @@
 
     <section class="card" id="filtros-ficha" style="display:none;">
       <div class="filters">
-        <label>Mostrar:
-          <select id="f-modo">
-            <option value="atuais">Quem está no cargo hoje</option>
-            <option value="candidatos">Candidatos 2026</option>
-          </select>
-        </label>
         <label>Estado: <select id="f-uf"><option value="">Todos</option></select></label>
         <label>Cidade: <input id="f-cidade" type="text" placeholder="ex: Campinas" style="display:none;" /></label>
         <label>Buscar nome: <input id="f-nome" type="text" placeholder="nome do candidato" /></label>
@@ -47,6 +41,7 @@
 </footer>
 
 <script src="js/header.js"></script>
+<script src="js/shared.js"></script>
 <script src="js/atualmente.js"></script>
 </body>
 </html>

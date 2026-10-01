@@ -17,11 +17,55 @@
       <p class="subtitle" id="hero-timer-label"></p>
     </section>
 
-    <section class="card">
+    <section class="card viz-root">
       <h2>Pesquisas eleitorais — Presidente</h2>
+      <p class="source-note" style="margin-top:-6px;">Escolha o instituto — cada um tem data de coleta própria.</p>
+      <div class="flow-steps" id="instituto-tabs"></div>
       <div id="pesquisas-content">
         <p class="empty-hint">Carregando pesquisas…</p>
       </div>
+    </section>
+
+    <section class="card viz-root">
+      <h2>Evolução nas últimas semanas</h2>
+      <p class="source-note" style="margin-top:-6px;">Só comparamos pesquisas do <strong>mesmo instituto</strong> entre si — institutos diferentes usam metodologias diferentes, misturar daria uma linha enganosa.</p>
+      <div class="flow-steps" id="evolucao-tabs"></div>
+      <div id="evolucao-content" style="margin-top:10px;">
+        <p class="empty-hint">Carregando…</p>
+      </div>
+    </section>
+
+    <section class="card viz-root">
+      <h2>Quem lidera em cada estado</h2>
+      <div id="mapa-content">
+        <p class="empty-hint">Carregando mapa…</p>
+      </div>
+    </section>
+
+    <section class="card viz-root">
+      <h2>Pesquisas eleitorais — Governador</h2>
+      <div class="flow-steps" id="estado-tabs"></div>
+      <div id="governador-content" style="margin-top:10px;">
+        <p class="empty-hint">Carregando…</p>
+      </div>
+    </section>
+
+    <section class="card viz-root">
+      <div class="two-col">
+        <div>
+          <h2 style="font-size:16px;">Voto já decidido?</h2>
+          <div id="decisao-content"><p class="empty-hint">Carregando…</p></div>
+        </div>
+        <div>
+          <h2 style="font-size:16px;">Qualidade da intenção de voto</h2>
+          <div id="gauge-content"><p class="empty-hint">Carregando…</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Perfil do eleitorado (sexo e idade)</h2>
+      <p>Procuramos pesquisas públicas com esse recorte para os 5 principais candidatos e <strong>não encontramos institutos divulgando esse cruzamento de forma acessível</strong> para esta eleição até agora. Para não inventar número, preferimos deixar essa seção de fora por enquanto — assim que sair uma pesquisa com esse detalhamento e fonte citável, adicionamos aqui.</p>
     </section>
 
     <section class="card">
@@ -34,6 +78,11 @@
       <h2>Não sabe onde votar?</h2>
       <p>Não coletamos documentos pessoais aqui — por segurança, a consulta de local de votação é feita direto na ferramenta oficial da Justiça Eleitoral.</p>
       <p><a href="onde-votar.html">→ Ir para Onde Votar</a></p>
+    </section>
+
+    <section class="card">
+      <h2>De onde vêm esses números?</h2>
+      <p>Todo dado deste site tem instituto, data e link da fonte original. Veja a lista completa, organizada por tipo de informação, na página <a href="fontes.html">Fontes</a>.</p>
     </section>
   </div>
 </main>

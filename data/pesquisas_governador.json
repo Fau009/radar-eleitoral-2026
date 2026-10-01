@@ -1,0 +1,71 @@
+{
+  "cargo": "Governador",
+  "atualizadoEm": "2026-10-01",
+  "estados": [
+    {
+      "uf": "SP",
+      "nomeEstado": "São Paulo",
+      "institutos": [
+        {
+          "instituto": "Atlas/Estadão",
+          "dataPesquisa": "2026-09-29",
+          "periodoColeta": "29 de setembro de 2026",
+          "fonte": "https://www.brasildefato.com.br/2026/09/29/tarcisio-tem-533-e-haddad-401-no-1o-turno-para-governo-de-sp-aponta-atlasestadao-veja-intencao-de-votos-por-regiao/",
+          "candidatos": [
+            {"nome": "Tarcísio de Freitas", "partido": "Republicanos", "percentual": 53.3},
+            {"nome": "Fernando Haddad", "partido": "PT", "percentual": 40.1}
+          ]
+        },
+        {
+          "instituto": "Datafolha",
+          "dataPesquisa": "2026-09-24",
+          "periodoColeta": "24 de setembro de 2026",
+          "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-sao-paulo-setembro-2026-2/",
+          "candidatos": [
+            {"nome": "Tarcísio de Freitas", "partido": "Republicanos", "percentual": 50}
+          ],
+          "nota": "Datafolha divulgou o número de Tarcísio; demais candidatos não constavam na cobertura consultada."
+        },
+        {
+          "instituto": "Quaest",
+          "dataPesquisa": "2026-09-23",
+          "periodoColeta": "23 de setembro de 2026",
+          "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-sao-paulo-setembro-2026-2/",
+          "candidatos": [
+            {"nome": "Tarcísio de Freitas", "partido": "Republicanos", "percentual": 44},
+            {"nome": "Fernando Haddad", "partido": "PT", "percentual": 27}
+          ]
+        }
+      ]
+    },
+    {
+      "uf": "MG",
+      "nomeEstado": "Minas Gerais",
+      "institutos": [
+        {
+          "instituto": "Datafolha",
+          "dataPesquisa": "2026-09-24",
+          "periodoColeta": "24 de setembro de 2026",
+          "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-minas-gerais-setembro-2026-2/",
+          "candidatos": [
+            {"nome": "Cleitinho Azevedo", "partido": "Republicanos", "percentual": 40},
+            {"nome": "Patrus Ananias", "partido": "PT", "percentual": 15},
+            {"nome": "Alexandre Kalil", "partido": "PDT", "percentual": 9}
+          ]
+        },
+        {
+          "instituto": "Quaest",
+          "dataPesquisa": "2026-09-29",
+          "periodoColeta": "29 de setembro de 2026",
+          "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-minas-gerais-setembro-2026-3/",
+          "candidatos": [
+            {"nome": "Cleitinho Azevedo", "partido": "Republicanos", "percentual": 37},
+            {"nome": "Patrus Ananias", "partido": "PT", "percentual": 18},
+            {"nome": "Alexandre Kalil", "partido": "PDT", "percentual": 9}
+          ]
+        }
+      ]
+    }
+  ],
+  "nota": "Pesquisas de governador existem para os 27 estados, mas cada uma só cobre o próprio estado. Por ora mantemos São Paulo e Minas Gerais — os dois com cobertura mais recente e completa encontrada. Outros estados podem entrar depois."
+}

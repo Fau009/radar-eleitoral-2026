@@ -1,0 +1,14 @@
+{
+  "titulo": "Intenção de voto para presidente — qualidade",
+  "instituto": "Quaest",
+  "dataPesquisa": "2026-09-27",
+  "periodoColeta": "24 a 27 de setembro de 2026",
+  "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026-5/",
+  "atualizadoEm": "2026-10-01",
+  "categorias": [
+    {"status": "good", "label": "Vai votar em algum candidato", "percentual": 85},
+    {"status": "warning", "label": "Indeciso", "percentual": 5},
+    {"status": "critical", "label": "Branco, nulo ou não vai votar", "percentual": 10}
+  ],
+  "nota": "Os institutos de pesquisa não divulgam voto em branco separado de voto nulo — publicam os dois somados a \"não vai votar\". Por isso o critério vermelho aqui é esse grupo combinado, não só nulo."
+}

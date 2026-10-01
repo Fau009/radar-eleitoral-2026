@@ -1,0 +1,93 @@
+{
+  "cargo": "Presidente da República",
+  "cenario": "Estimulado, 1º turno",
+  "atualizadoEm": "2026-10-01",
+  "institutos": [
+    {
+      "instituto": "Quaest",
+      "dataPesquisa": "2026-09-27",
+      "periodoColeta": "24 a 27 de setembro de 2026",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026-5/",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 39},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 34},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 4},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 4},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 3},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1}
+      ],
+      "brancoNuloNaoVotaria": 10,
+      "indecisos": 5
+    },
+    {
+      "instituto": "Datafolha",
+      "dataPesquisa": "2026-09-24",
+      "periodoColeta": "22 a 24 de setembro de 2026",
+      "fonte": "https://www.cartacapital.com.br/cartaexpressa/a-nova-pesquisa-datafolha-sobre-lula-x-flavio-bolsonaro-a-3-dias-da-eleicao/",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 40},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 36},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 5},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 4},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 3},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1}
+      ]
+    },
+    {
+      "instituto": "PoderData",
+      "dataPesquisa": "2026-09-23",
+      "periodoColeta": "20 a 23 de setembro de 2026",
+      "fonte": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 41},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 39},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 6},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 2},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 3},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1}
+      ]
+    },
+    {
+      "instituto": "Real Time Big Data",
+      "dataPesquisa": "2026-09-23",
+      "periodoColeta": "19 a 23 de setembro de 2026",
+      "fonte": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 41},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 37},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 6},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 2},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 6},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1}
+      ]
+    },
+    {
+      "instituto": "AtlasIntel",
+      "dataPesquisa": "2026-09-22",
+      "periodoColeta": "17 a 22 de setembro de 2026",
+      "fonte": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 44.1},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 41.7},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 5.1},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 3.5},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 1.7},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1.1}
+      ]
+    },
+    {
+      "instituto": "Paraná Pesquisas (Palver)",
+      "dataPesquisa": "2026-09-27",
+      "periodoColeta": "24 a 27 de setembro de 2026",
+      "fonte": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election",
+      "candidatos": [
+        {"nome": "Lula", "partido": "PT", "percentual": 44},
+        {"nome": "Flávio Bolsonaro", "partido": "PL", "percentual": 44},
+        {"nome": "Renan Santos", "partido": "Missão", "percentual": 8},
+        {"nome": "Ronaldo Caiado", "partido": "PSD", "percentual": 1},
+        {"nome": "Zema", "partido": "Novo", "percentual": 1},
+        {"nome": "Augusto Cury", "partido": "Avante", "percentual": 1}
+      ]
+    }
+  ]
+}

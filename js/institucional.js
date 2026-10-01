@@ -4,12 +4,11 @@ const PODERES = [
     titulo: "Poder Executivo",
     resumo: "Governa o dia a dia: aplica leis, cuida de saúde, educação, segurança, obras.",
     detalhe: `
-      <p><strong>O que faz:</strong> administra o país/estado/município — propõe e executa orçamento, políticas públicas, representa o país no exterior (no caso do Presidente), é comandante das forças de segurança da sua esfera.</p>
-      <p><strong>Quem compõe:</strong></p>
+      <p><strong>Deveres e escopo de trabalho, por cargo:</strong></p>
       <ul>
-        <li><strong>Presidente + Vice</strong> — governo federal, eleito por voto direto majoritário (2 turnos se necessário), mandato de 4 anos.</li>
-        <li><strong>Governador + Vice</strong> — governo estadual, mesma lógica, por estado.</li>
-        <li><strong>Prefeito + Vice</strong> — governo municipal (não é eleito em 2026 — próxima eleição municipal é 2028).</li>
+        <li><strong>Presidente + Vice</strong> — comanda as Forças Armadas, define política externa e relações com outros países, toca a economia nacional (câmbio, juros via indicação ao BC, impostos federais), programas sociais federais (Bolsa Família, SUS, previdência), segurança nas fronteiras e Polícia Federal. Eleito por voto direto majoritário (2 turnos se necessário), mandato de 4 anos.</li>
+        <li><strong>Governador + Vice</strong> — comanda a Polícia Militar e Civil do estado, administra escolas estaduais e hospitais estaduais/regionais, rodovias estaduais, presídios, impostos estaduais (ICMS). Mesma lógica eleitoral do Presidente, por estado.</li>
+        <li><strong>Prefeito + Vice</strong> — transporte público municipal, saúde básica (postos de saúde, UBS), educação infantil e fundamental, zoneamento urbano, coleta de lixo, trânsito local, Guarda Municipal. Não é eleito em 2026 — próxima eleição municipal é 2028.</li>
       </ul>`,
   },
   {
@@ -17,13 +16,12 @@ const PODERES = [
     titulo: "Poder Legislativo",
     resumo: "Cria e aprova leis, fiscaliza o Executivo, aprova o orçamento público.",
     detalhe: `
-      <p><strong>O que faz:</strong> discute, propõe e vota leis; aprova (ou rejeita) o orçamento; fiscaliza gastos e atos do Executivo; pode instaurar CPIs; no caso do Senado, aprova nomes indicados pelo Presidente para cargos-chave (ex: ministros do STF).</p>
-      <p><strong>Quem compõe:</strong></p>
+      <p><strong>Deveres e escopo de trabalho, por cargo:</strong></p>
       <ul>
-        <li><strong>Câmara dos Deputados</strong> — 513 Deputados Federais, eleitos por voto proporcional, mandato de 4 anos. Representam o povo.</li>
-        <li><strong>Senado Federal</strong> — 81 Senadores (3 por estado + DF), eleitos por voto majoritário, mandato de 8 anos (renovado por 1/3 e 2/3 alternadamente). Representam os estados.</li>
-        <li><strong>Assembleias Estaduais</strong> — Deputados Estaduais (ou Distritais no DF), voto proporcional, atuam dentro do estado.</li>
-        <li><strong>Câmaras Municipais</strong> — Vereadores (não eleitos em 2026).</li>
+        <li><strong>Deputado Federal</strong> (Câmara dos Deputados, 513 cadeiras) — propõe e vota leis federais (trabalhista, tributária, penal etc.), vota o orçamento da União, fiscaliza ministérios, pode abrir CPI federal. Eleito por voto proporcional, mandato de 4 anos.</li>
+        <li><strong>Senador</strong> (Senado Federal, 81 cadeiras — 3 por estado + DF) — além de votar leis federais, aprova (ou rejeita) nomes indicados pelo Presidente para ministros do STF, diretores do BC e embaixadores, e julga o Presidente em processo de impeachment. Eleito por voto majoritário, mandato de 8 anos (renovado por 1/3 e 2/3 alternadamente).</li>
+        <li><strong>Deputado Estadual/Distrital</strong> (Assembleias Estaduais) — mesmo papel do Deputado Federal, mas para leis e orçamento do estado (ex: regras de ICMS, estrutura da polícia estadual). Voto proporcional, dentro do estado.</li>
+        <li><strong>Vereador</strong> (Câmaras Municipais) — leis e orçamento do município (ex: IPTU, zoneamento, transporte local). Não eleito em 2026.</li>
       </ul>`,
   },
   {
@@ -31,12 +29,11 @@ const PODERES = [
     titulo: "Poder Judiciário",
     resumo: "Interpreta e aplica a lei, julga conflitos — inclusive sobre as próprias eleições.",
     detalhe: `
-      <p><strong>O que faz:</strong> julga processos, interpreta a Constituição e as leis, resolve conflitos entre pessoas, empresas, estados e os outros poderes.</p>
-      <p><strong>Quem compõe (nível federal):</strong></p>
+      <p><strong>Deveres e escopo de trabalho, por instância (nível federal):</strong></p>
       <ul>
-        <li><strong>STF</strong> — última instância, guarda a Constituição, 11 ministros indicados pelo Presidente e aprovados pelo Senado.</li>
-        <li><strong>STJ, TRFs, Justiça Federal/Estadual</strong> — demais instâncias.</li>
-        <li><strong>Justiça Eleitoral (TSE/TREs)</strong> — ramo especializado só em eleições: organiza, fiscaliza e apura a votação, julga contas de campanha e registra candidaturas. É quem toca o site oficial de "onde votar".</li>
+        <li><strong>STF</strong> — última palavra sobre se uma lei ou ato do governo respeita a Constituição; julga autoridades com foro privilegiado (ex: Presidente, deputados, senadores) em crimes comuns. 11 ministros indicados pelo Presidente e aprovados pelo Senado.</li>
+        <li><strong>STJ, TRFs, Justiça Federal/Estadual</strong> — julgam processos cíveis, criminais e trabalhistas em instâncias anteriores ao STF, cada um com sua área de competência.</li>
+        <li><strong>Justiça Eleitoral (TSE/TREs)</strong> — ramo especializado só em eleições: organiza, fiscaliza e apura a votação, julga contas de campanha, registra (ou barra) candidaturas, define onde cada eleitor vota. É quem toca a ferramenta oficial de "onde votar".</li>
       </ul>
       <p>Ministros do Judiciário <strong>não são eleitos</strong> — por isso esse poder não aparece nas suas fichas de candidatos.</p>`,
   },

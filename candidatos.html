@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Candidatos 2026 — Radar Eleitoral 2026</title>
+<meta name="description" content="Candidatos às Eleições 2026: Presidente, Governador, Senador e Deputado Federal, com ficha e filtro por estado." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<main>
+  <div class="container">
+    <h1>Candidatos 2026</h1>
+    <p>Escolha o cargo para ver os candidatos registrados no TSE. Quer ver quem está no cargo hoje em vez disso? Veja a aba <a href="atualmente.html">Atualmente</a>.</p>
+
+    <section class="card">
+      <div class="flow-steps" id="cargo-tabs"></div>
+
+      <div class="filters" style="margin-top:14px;">
+        <label>Estado: <select id="f-uf"><option value="">Todos</option></select></label>
+        <label>Buscar nome: <input id="f-nome" type="text" placeholder="nome do candidato" /></label>
+      </div>
+      <div id="ficha-result"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Radar Eleitoral 2026 — dados oficiais do TSE (Consulta de Candidaturas 2026).</div>
+</footer>
+
+<script src="js/header.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/candidatos.js"></script>
+</body>
+</html>

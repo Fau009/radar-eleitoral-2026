@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fontes — Radar Eleitoral 2026</title>
+<meta name="description" content="De onde vem cada informação deste site: candidatos, quem está no cargo hoje e pesquisas eleitorais, com link direto pra fonte original." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<main>
+  <div class="container">
+    <h1>Fontes</h1>
+    <p>Todo número deste site vem de algum lugar específico, citado aqui. Nunca publicamos um dado sem saber de onde ele veio.</p>
+
+    <section class="card">
+      <h2>Candidatos 2026</h2>
+      <p>Nome, idade, escolaridade, partido e situação de candidatura de todos os candidatos a Presidente, Governador, Senador, Deputado Federal e Deputado Estadual/Distrital.</p>
+      <p><strong>Fonte:</strong> <a href="https://dadosabertos.tse.jus.br/dataset/candidatos-2026" target="_blank" rel="noopener">Portal de Dados Abertos do TSE — Candidatos 2026</a> (arquivo oficial, baixado direto do TSE)</p>
+      <p class="source-note">Não publicamos CPF nem número de título eleitoral, mesmo estando no arquivo original do TSE — ver página <a href="onde-votar.html">Onde Votar</a> para o porquê.</p>
+    </section>
+
+    <section class="card">
+      <h2>Quem está no cargo hoje</h2>
+      <table style="width:100%;border-collapse:collapse;font-size:14px;">
+        <tr style="border-bottom:1px solid var(--slate-200);"><td style="padding:6px 0;"><strong>Presidente</strong></td><td><a href="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/presidente" target="_blank" rel="noopener">Planalto</a> (compilado manual)</td></tr>
+        <tr style="border-bottom:1px solid var(--slate-200);"><td style="padding:6px 0;"><strong>Governadores</strong></td><td><a href="https://pt.wikipedia.org/wiki/Lista_de_governadores_das_unidades_federativas_do_Brasil" target="_blank" rel="noopener">Wikipédia — Lista de governadores das unidades federativas do Brasil</a> (compilado manual)</td></tr>
+        <tr style="border-bottom:1px solid var(--slate-200);"><td style="padding:6px 0;"><strong>Senadores</strong></td><td><a href="https://legis.senado.leg.br/dadosabertos" target="_blank" rel="noopener">API de Dados Abertos do Senado Federal</a> (consulta automática)</td></tr>
+        <tr style="border-bottom:1px solid var(--slate-200);"><td style="padding:6px 0;"><strong>Deputados Federais</strong></td><td><a href="https://dadosabertos.camara.leg.br/swagger/api.html" target="_blank" rel="noopener">API de Dados Abertos da Câmara dos Deputados</a> (consulta automática)</td></tr>
+        <tr><td style="padding:6px 0;"><strong>Prefeitos</strong></td><td><a href="https://dadosabertos.tse.jus.br/dataset/candidatos-2024" target="_blank" rel="noopener">Dados Abertos do TSE — resultado da eleição municipal de 2024</a>, filtrado por candidatos eleitos (processado por script)</td></tr>
+      </table>
+      <p class="source-note">Deputados Estaduais e Vereadores em exercício ainda não estão no site — ver nota no rodapé da página <a href="atualmente.html">Atualmente</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Pesquisas eleitorais — Presidente</h2>
+      <ul id="fontes-presidente"><li class="empty-hint">Carregando…</li></ul>
+    </section>
+
+    <section class="card">
+      <h2>Pesquisas eleitorais — Governador</h2>
+      <ul id="fontes-governador"><li class="empty-hint">Carregando…</li></ul>
+    </section>
+
+    <section class="card">
+      <h2>Liderança por estado, voto decidido e qualidade do voto</h2>
+      <ul id="fontes-extras"><li class="empty-hint">Carregando…</li></ul>
+    </section>
+
+    <section class="card">
+      <h2>Com que frequência as pesquisas são atualizadas?</h2>
+      <p>Isso depende do instituto, não de nós. Na reta final da eleição (como agora, faltando poucos dias para o 1º turno) os principais institutos — Quaest, Datafolha, AtlasIntel, PoderData, Real Time, Paraná Pesquisas — costumam divulgar pesquisa nacional para presidente a cada <strong>1 a 2 semanas</strong>, às vezes mais de um instituto na mesma semana. Em períodos mais distantes da eleição, o ritmo cai para a cada <strong>3 a 4 semanas</strong>. Pesquisas estaduais (governador) saem com menos frequência e nem todo estado tem cobertura constante.</p>
+      <p>Este site <strong>não busca pesquisas novas sozinho</strong> — é um site estático, sem servidor. Os números ficam parados na data marcada em cada seção até alguém pedir uma atualização, que puxa as pesquisas mais recentes disponíveis e atualiza os arquivos. Por isso cada número aqui sempre mostra a data da coleta — para saber se você está vendo informação recente ou desatualizada.</p>
+    </section>
+
+    <section class="card">
+      <h2>Onde votar</h2>
+      <p><strong>Fonte:</strong> <a href="https://www.tse.jus.br/servicos-eleitorais/local-de-votacao-zonas-eleitorais" target="_blank" rel="noopener">TSE — Local de votação / zonas eleitorais</a> e <a href="https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-5-dias-saiba-como-consultar-o-local-de-votacao" target="_blank" rel="noopener">TSE — Faltam 5 dias: saiba como consultar o local de votação</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Calendário eleitoral</h2>
+      <p><strong>Fonte:</strong> <a href="https://www.tse.jus.br/comunicacao/noticias/2026/Marco/eleicoes-2026-confira-as-principais-datas-do-calendario-eleitoral" target="_blank" rel="noopener">TSE — Eleições 2026: confira as principais datas do calendário eleitoral</a></p>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">Radar Eleitoral 2026 — todo número tem fonte. Sempre.</div>
+</footer>
+
+<script src="js/header.js"></script>
+<script src="js/fontes.js"></script>
+</body>
+</html>
