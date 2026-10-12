@@ -7,6 +7,9 @@
 <meta name="description" content="Pesquisas, calendário e informações sobre as Eleições 2026, com fontes citadas. Sem login, sem coleta de dados pessoais." />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗳️</text></svg>" />
 <link rel="stylesheet" href="css/style.css" />
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icones/apple-touch-icon.png">
+<meta name="theme-color" content="#0b2545">
 </head>
 <body>
 <main>
@@ -85,10 +88,12 @@
 <footer class="site-footer">
   <div class="container">
     Radar Eleitoral 2026 — projeto informativo e não-partidário, código aberto no GitHub. Dados oficiais do TSE, Câmara e Senado.
+    <p class="app-links" data-app-links></p>
   </div>
 </footer>
 
 <script src="js/header.js"></script>
 <script src="js/home.js"></script>
+<script src="pwa.js" defer></script>
 </body>
 </html>
